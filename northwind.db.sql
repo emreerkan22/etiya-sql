@@ -23,7 +23,7 @@
 
 --Question 7
 --SELECT * FROM Products 
---WHERE productname LIKE ('n%') 
+--WHERE productname LIKE 'N%' AND productname NOT LIKE '% %'
 
 --Question 8
 --SELECT * FROM Products 
