@@ -22,8 +22,8 @@
 --WHERE productname LIKE ('%C%')
 
 --Question 7
---SELECT * FROM Products 
---WHERE productname LIKE 'N%' AND productname NOT LIKE '% %'
+SELECT * FROM products 
+WHERE productname LIKE 'n%' AND LENGTH(REPLACE(productname, 'n', '')) = LENGTH(productname) - 1
 
 --Question 8
 --SELECT * FROM Products 
